@@ -153,6 +153,7 @@ Contains utility classes for browser setup, report generation, JSON handling, an
 * **steps**: Step definitions implementing Gherkin steps for the core product.
 * **runners**: Cucumber TestNG runner for executing the tests.
 * **resources/testdata**: JSON files containing test data for various test cases.
+* **resources/config.properties**: holds module kevel data such as application url, browser type etc. .
 
 ### **derived-product1-tests** and **derived-product2-tests**:
 
