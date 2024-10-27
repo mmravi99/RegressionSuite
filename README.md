@@ -148,10 +148,10 @@ Contains utility classes for browser setup, report generation, JSON handling, an
 ### **core-product-tests:**
 
 * Contains feature files, step definitions, page objects, and test data specific to the core product.
+* **features**: Cucumber feature files written in Gherkin syntax.
 * **pages**: Page Object Model (POM) classes for the core product.
 * **steps**: Step definitions implementing Gherkin steps for the core product.
 * **runners**: Cucumber TestNG runner for executing the tests.
-* **resources/features**: Cucumber feature files written in Gherkin syntax.
 * **resources/testdata**: JSON files containing test data for various test cases.
 
 ### **derived-product1-tests** and **derived-product2-tests**:
