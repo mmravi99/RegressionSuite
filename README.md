@@ -254,5 +254,3 @@ This **Selenium Java Automation Framework User Guide** provides a comprehensive 
 * **Reusable Components**: Promotes code reuse and maintainability through well-designed utilities and page objects.
 
 * * *
-
-With this structure, the guide now has a comprehensive index and better flow, allowing users to easily navigate through sections and understand the automation framework setup and usage.
