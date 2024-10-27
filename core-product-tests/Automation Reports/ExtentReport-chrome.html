@@ -1,0 +1,387 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Test Results</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sunday,October 27, 09:59 am (IST)</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Store Jacket details with price and Top Seller message</p>
+            <p class="text-sm">
+              <span>9:59:05 am</span> / <span>00:00:28:636</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Store Jacket details with price and Top Seller message</h5>
+<span class='badge badge-success'>10.27.2024 9:59:05 am</span>
+<span class='badge badge-danger'>10.27.2024 9:59:34 am</span>
+<span class='badge badge-default'>00:00:28:636</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:10 am</td>
+        <td>
+          core-product	<b><font color='green'>https://www.nba.com/warriors</font></b> opened successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:11 am</td>
+        <td>
+          Navigated to Men's section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:34 am</td>
+        <td>
+          Jacket's price, title, and Top Seller message details are copied and available in <b><font color='green'>/core-product-tests/jacket-details.txt</font></b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:34 am</td>
+        <td>
+          Following are the list of details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:34 am</td>
+        <td>
+          <ul><li>Men's Antigua Royal Golden State Warriors Insider Quarter-Zip Top:$84.74</li><li>Men's Levelwear Black Golden State Warriors Durham Insignia Core Full-Zip Hoodie:$119.99</li><li>Men's Antigua Gold Golden State Warriors NBA 75th Anniversary Glacier Quarter-Zip Pullover Jacket:$59.99</li><li>Men's Antigua Royal Golden State Warriors Big & Tall Victory Crew Neck Pullover Sweatshirt:$68.24</li><li>Women's Antigua Heather Black Golden State Warriors Layout Sleeveless V-Neck Polo:$50.99</li><li>Men's Pro Standard Royal Golden State Warriors Area Code Full-Zip Jacket:$179.99</li><li>Men's Columbia Royal Golden State Warriors Steens Full-Zip Jacket:$53.99</li><li>Women's Antigua Royal Golden State Warriors Era Polo:$55.49</li><li>Men's Antigua Heather Gray Golden State Warriors Metallic Logo Fortune Quarter-Zip Jacket:$86.24</li><li>Men's Starter Black Golden State Warriors Home Game Satin Full-Snap Varsity Jacket:$112.49</li><li>Men's Nike Black/Yellow Golden State Warriors 2022/23 City Edition Showtime Thermaflex Full-Zip Jacket:$109.99</li><li>Men's Mitchell & Ness Royal Golden State Warriors Hardwood Classics Team OG 2.0 Anorak Hoodie Half-Zip Windbreaker Jacket:$101.24</li><li>Men's Antigua Gray Golden State Warriors Links 2 Full-Zip Golf Jacket:$86.24</li><li>Men's Antigua Olive Golden State Warriors Reprocess Quarter-Zip Top:$64.49</li><li>Men's Antigua Royal Golden State Warriors Perilous Quarter-Zip Sweatshirt:$80.99</li><li>Men's Levelwear Black Golden State Warriors Beam Insignia Core Quarter-Zip Pullover Top:$93.74</li><li>Men's Antigua Black Golden State Warriors Generation Quarter-Zip Pullover Jacket:$67.49</li><li>Men's Antigua Black Golden State Warriors Objection Double-Peached Full-Zip Jacket:$91.49</li><li>Men's Antigua Heather Black Golden State Warriors Fortune Full-Zip Vest:$80.99</li><li>Men's Nike Black Golden State Warriors 2023/24 City Edition Courtside Premier Full-Snap Bomber Jacket:$138.74</li><li>Men's Levelwear Royal Golden State Warriors Form Insignia Core Full-Zip Jacket:$95.99</li><li>Women's Antigua Heather Gray Golden State Warriors Layout V-Neck Polo:$55.49</li><li>Men's Antigua Black Golden State Warriors Links 2 Full-Zip Golf Jacket:$86.24</li><li>Men's Antigua White Golden State Warriors Intent Quarter-Zip Top:$70.49</li><li>Men's Antigua Black Golden State Warriors Big & Tall Victory Full-Zip Hoodie Jacket:$75.74</li><li>Men's Antigua Kelly Green Golden State Warriors Shamrock Tribute Quarter-Zip Pullover Top:$59.99</li><li>Men's Antigua Heather Black Golden State Warriors Certain Quarter-Zip Tri-Blend Sweatshirt:$86.24</li><li>Women's Antigua Black Golden State Warriors Era Polo:$55.49</li><li>Men's Antigua Heathered Black Golden State Warriors Fortune Full-Zip Jacket:$86.24</li><li>Men's Tommy Jeans Royal Golden State Warriors Bernard Half-Zip Hoodie:$52.49</li><li>Men's Antigua Heather Royal Golden State Warriors Hunk Quarter-Zip Pullover Top:$71.24</li><li>Men's Levelwear Black Golden State Warriors Harrington Full-Zip Jacket:$104.99</li><li>Men's Fanatics Royal/Heather Gray Golden State Warriors Big & Tall Pieced Stripe Raglan Full-Zip Track Jacket:$56.24</li><li>Men's Antigua Black Golden State Warriors Perilous Quarter-Zip Sweatshirt:$80.99</li><li>Men's Levelwear Black Golden State Warriors Zander Hoodie Raglan Quarter-Zip Top:$74.99</li><li>Men's Antigua Charcoal Golden State Warriors Big & Tall Victory Raglan Pullover Hoodie:$80.99</li><li>Women's Antigua Gray Golden State Warriors Tunnel Polo:$57.74</li><li>Men's Antigua Black Golden State Warriors Brisk Quarter-Zip Windbreaker:$77.24</li><li>Men's Antigua Black Golden State Warriors Links Full-Zip Golf Jacket:$78.74</li><li>Men's Antigua Heather Gray Golden State Warriors Certain Quarter-Zip Tri-Blend Sweatshirt:$86.24</li><li>Men's Pro Standard Royal Golden State Warriors Retro Classic Full-Zip Varsity Jacket:$284.99</li><li>Men's Antigua Heather Gray Golden State Warriors Victory Quarter-Zip Pullover Top:$63.74</li><li>Men's Antigua Heather Black Golden State Warriors Saga Long Sleeve Hoodie T-Shirt:$71.24</li><li>Men's Antigua Royal Golden State Warriors Metallic Logo Tribute Quarter-Zip Top:$56.24</li><li>Men's Antigua Charcoal Golden State Warriors Metallic Logo Victory Raglan Full-Zip Hoodie:$63.74</li><li>Men's Antigua Royal Golden State Warriors Generation Quarter-Zip Pullover Jacket:$67.49</li><li>Men's Antigua Black Golden State Warriors Victory Full-Zip Jacket:$71.24</li><li>Men's Antigua Heather Gray Golden State Warriors Bright Quarter-Zip Top:$70.49</li><li>Men's Antigua White Golden State Warriors Metallic Logo Victory Raglan Pullover Hoodie:$63.74</li><li>Women's Antigua Heather Royal Golden State Warriors Matter Polo:$55.49</li><li>Women's Antigua Black Golden State Warriors Tunnel Polo:$57.74</li><li>Men's Antigua Heather Gray Golden State Warriors Big & Tall Victory Full-Zip Hoodie Jacket:$85.49</li><li>Women's Antigua Royal Golden State Warriors Reprocess Polo:$51.74</li><li>Men's Antigua Royal Golden State Warriors Exposure Woven Long Sleeve Button-Up Shirt:$74.24</li><li>Men's JH Design Royal Golden State Warriors Classic Reversible Full-Zip Jacket:$112.49</li><li>Men's Antigua Heather Gray Golden State Warriors Cloud Pullover Hoodie:$86.99</li><li>Men's Pro Standard Black Golden State Warriors Mash Up Fleece Pullover Hoodie:$144.99</li><li>Men's Antigua Gray Golden State Warriors Flight Woven Tri-Blend Long Sleeve Button-Down Shirt:$65.99</li><li>Men's Nike Black Golden State Warriors Authentic Performance Half-Zip Jacket:$74.99</li><li>Men's Antigua White Golden State Warriors Victory Quarter-Zip Mock Sweatshirt:$71.24</li><li>Men's Antigua Gold Golden State Warriors Intent Quarter-Zip Top:$70.49</li><li>Men's Columbia Heathered Gray/Royal Golden State Warriors Omni-Wick Shotgun 2.0 Quarter-Zip Pullover Top:$78.74</li><li>Men's Levelwear Royal Golden State Warriors Theory Insignia Core Quarter-Zip Pullover Top:$80.99</li><li>Men's Antigua Heather Olive Golden State Warriors Cloud Pullover Hoodie:$77.24</li><li>Men's JH Design Gray Golden State Warriors Reversible Full-Zip Track Jacket:$63.74</li><li>Men's Antigua Royal Golden State Warriors Reprocess Quarter-Zip Top:$64.49</li><li>Men's Antigua Heather Gray Golden State Warriors Fortune Full-Zip Vest:$80.99</li><li>Women's Antigua Gray Golden State Warriors Era Polo:$55.49</li><li>Men's Antigua Black Golden State Warriors Steamer Button-Up Shacket:$69.74</li><li>Women's Antigua Black Golden State Warriors Reprocess Polo:$51.74</li><li>Men's Antigua Black Golden State Warriors Metallic Logo Victory Raglan Pullover Hoodie:$63.74</li><li>Men's Starter Royal/Gold Golden State Warriors Renegade Satin Full-Snap Varsity Jacket:$104.99</li><li>Men's Antigua Gray Golden State Warriors Daily Fused Full-Zip Jacket:$95.24</li><li>Men's JH Design Gold/Royal Golden State Warriors Split All Over Full-Zip Jacket:$149.99</li><li>Men's JH Design Royal/White Golden State Warriors Reversible Fleece & Faux Leather Full-Snap Jacket:$89.99</li><li>Men's Antigua Khaki Golden State Warriors Victory Crewneck Pullover Sweatshirt:$77.99</li><li>Men's Antigua Royal Golden State Warriors Swelter Full-Zip Puffer Jacket:$98.99</li><li>Men's Nike Royal Golden State Warriors 2024/25 Courtside Performance Half-Zip Top:$74.99</li><li>Men's Antigua Heather Gray Golden State Warriors Hold-Up Full-Zip Tri-Blend Jacket:$91.49</li><li>Men's JH Design Black Golden State Warriors 2023/24 City Edition Full-Zip Bomber Jacket:$112.49</li><li>Men's Pro Standard Black Golden State Warriors Mash Up Full-Zip Varsity Jacket:$284.99</li><li>Women's Antigua White Golden State Warriors Era Polo:$55.49</li><li>Men's Antigua Gray Golden State Warriors Steamer Quarter-Snap Pullover Top:$69.74</li><li>Men's Antigua Charcoal Golden State Warriors Metallic Logo Tribute Quarter-Zip Top:$56.24</li><li>Men's Antigua Black Golden State Warriors Metallic Logo Links Full-Zip Golf Vest:$71.24</li><li>Men's Pro Standard Brown Golden State Warriors Paint The City Full-Zip Jacket:$159.99</li><li>Men's Antigua Heather Gray Golden State Warriors Big & Tall Victory Raglan Pullover Hoodie:$71.99</li><li>Men's Antigua Black Golden State Warriors Pivot Full-Zip Jacket:$80.99</li><li>Men's Jordan Brand Gray Golden State Warriors Courtside Statement Edition Jumpman Jam Full-Zip Jacket:$129.99</li><li>Men's Antigua Black Golden State Warriors Intent Quarter-Zip Top:$70.49</li><li>Men's Jeff Hamilton Black Golden State Warriors Wool & Leather Full-Snap Varsity Jacket:$637.49</li><li>Men's Mitchell & Ness Navy Golden State Warriors Hardwood Classics Throwback Wordmark Raglan Full-Snap Jacket:$89.99</li><li>Women's Antigua Heather Gray Golden State Warriors Recap Sleeveless Polo:$53.99</li><li>Women's Antigua White Golden State Warriors Tunnel Polo:$57.74</li><li>Men's Mitchell & Ness Royal Golden State Warriors Undeniable Full-Zip Windbreaker Jacket:$101.24</li><li>Men's Antigua Heather Charcoal Golden State Warriors Fortune Full-Zip Vest:$80.99</li><li>Men's Nike Black Golden State Warriors 2023/24 City Edition Authentic Coaches Half-Zip Top:$63.74</li><li>Men's Levelwear Royal/Charcoal Golden State Warriors Commuter Insignia Core Quarter-Zip Pullover Top:$71.24</li><li>Men's Antigua Black Golden State Warriors Swelter Full-Zip Puffer Jacket:$98.99</li><li>Men's Starter x Levi's Royal Golden State Warriors Silver Label Trucker Satin Full-Snap Jacket:$188.00</li><li>Men's JH Design Gray/Royal Golden State Warriors Embroidered Logo Reversible Fleece Full-Snap Jacket:$89.99</li><li>Men's Antigua Heather Gray Golden State Warriors Action Full-Zip Jacket:$58.49</li><li>Men's Columbia Blue Golden State Warriors Terminal Tackle Long Sleeve Hoodie T-Shirt:$56.24</li><li>Men's Antigua White Golden State Warriors Big & Tall Victory Full-Zip Hoodie Jacket:$85.49</li><li>Women's Antigua White Golden State Warriors Rings Polo:$61.49</li><li>Men's Mitchell & Ness Royal Golden State Warriors Team OG 2.0 Vintage Logo Anorak Windbreaker Quarter-Zip Jacket:$104.99</li><li>Men's Antigua Heather Royal Golden State Warriors Subtle Quarter-Zip Sweatshirt:$77.24</li><li>Men's Antigua Charcoal Golden State Warriors Generation Quarter-Zip Pullover Jacket:$67.49</li><li>Men's Mitchell & Ness Royal Golden State Warriors Hardwood Classics Retro Quilted Raglan Full-Zip Hoodie:$149.99</li><li>Men's Mitchell & Ness Royal Golden State Warriors Hardwood Classics Throwback Wordmark Raglan Full-Snap Jacket:$89.99</li><li>Men's Starter Gold/Royal Golden State Warriors Rush Applique Full-Zip Track Jacket:$74.99</li><li>Women's Antigua Gray Golden State Warriors Reprocess Polo:$51.74</li><li>Men's Antigua Royal Golden State Warriors Links Full-Zip Golf Jacket:$78.74</li><li>Unisex Stadium Essentials Navy Golden State Warriors Compete Quarter-Zip Hoodie Jacket:$67.49</li><li>Men's Antigua Heather Black Golden State Warriors Bright Quarter-Zip Top:$70.49</li><li>Men's Antigua Heather Gray Golden State Warriors Spikes Raglan Quarter-Zip Hoodie:$86.24</li><li>Men's Antigua Charcoal Golden State Warriors Big & Tall Generation Quarter-Zip Pullover Jacket:$69.74</li><li>Men's Nike Royal Golden State Warriors Courtside Vintage Warmup Full-Zip Jacket:$129.99</li><li>Men's Antigua Charcoal Golden State Warriors Metallic Logo Victory Raglan Pullover Hoodie:$63.74</li><li>Men's Mitchell & Ness White Golden State Warriors Hardwood Classics Throwback Wordmark Raglan Full-Snap Jacket:$89.99</li><li>Men's Nike Royal Golden State Warriors Courtside Versus Capsule Full-Zip Jacket:$129.99</li><li>Men's Starter Gold Golden State Warriors Slider Satin Full-Snap Varsity Jacket:$97.49</li><li>Men's JH Design Gray/Charcoal Golden State Warriors Lightweight Nylon Full-Zip Bomber Jacket:$89.99</li><li>Men's Antigua Black Golden State Warriors Metallic Logo Victory Raglan Full-Zip Hoodie:$63.74</li><li>Men's Antigua Black Golden State Warriors Metallic Logo Tribute Quarter-Zip Top:$56.24</li><li>Men's Antigua Black Golden State Warriors Big & Tall Metallic Logo Generation Quarter-Zip Top:$69.74</li><li>Men's Starter Royal Golden State Warriors Captain Oxford Full-Zip Jacket:$119.99</li><li>Men's Antigua Black Golden State Warriors Flight Woven Tri-Blend Long Sleeve Button-Down Shirt:$65.99</li><li>Men's Antigua Black Golden State Warriors Daily Fused Full-Zip Jacket:$95.24</li><li>Men's Pro Standard Black Golden State Warriors Mash Up Fleece Pullover Sweatshirt:$134.99</li><li>Men's Pro Standard Cream Golden State Warriors Retro Classic Satin Full-Snap Jacket:$179.99</li><li>Men's G-III Sports by Carl Banks Royal Golden State Warriors Contender Full-Zip Hoodie Jacket:$67.49</li><li>Men's Antigua Heather Royal Golden State Warriors Effortless Full-Zip Hoodie Jacket:$80.99</li><li>Men's Fanatics Royal Golden State Warriors Big & Tall Anorak Half-Zip Hoodie:$52.49</li><li>Women's Antigua Olive Golden State Warriors Reprocess Polo:$51.74</li><li>Men's G-III Sports by Carl Banks Royal Golden State Warriors Contender Wordmark Full-Zip Track Jacket:$59.99</li><li>Men's Mitchell & Ness Royal Golden State Warriors Hardwood Classics Vintage Logo Full-Zip Bomber Jacket:$112.49</li><li>Men's Antigua Heather Gray Golden State Warriors Big & Tall Victory Crew Neck Pullover Sweatshirt:$68.24</li><li>Men's Pro Standard Royal Golden State Warriors Retro Classic Satin Full-Snap Jacket:$179.99</li><li>Men's Nike Royal Golden State Warriors Authentic On-Court Showtime Performance Full-Zip Hoodie:$154.99</li><li>Men's Levelwear Gray Golden State Warriors Finley Insignia Core Quarter-Zip Pullover Top:$88.49</li><li>Men's Antigua Gray Golden State Warriors Pivot Full-Zip Jacket:$80.99</li><li>Men's Antigua Gray Golden State Warriors Exposure Woven Long Sleeve Button-Up Shirt:$74.24</li><li>Men's Antigua Steel Golden State Warriors Metallic Logo Links Full-Zip Golf Vest:$71.24</li><li>Men's Antigua Gray/Gray Golden State Warriors Big & Tall Pace Quarter-Zip Pullover Jacket:$67.49</li><li>Women's Antigua Royal Golden State Warriors Tunnel Polo:$57.74</li><li>Men's Starter x Ty Mopkins Black Golden State Warriors Black History Month Satin Full-Zip Jacket:$149.99</li><li>Men's Pro Standard Black Golden State Warriors Mash Up Satin Full-Snap Jacket:$179.99</li><li>Unisex The Wild Collective Gray Golden State Warriors 2023/24 City Edition Camo Bomber Full-Zip Jacket:$104.99</li><li>Men's Pro Standard Black Golden State Warriors Classic Pullover Sweater:$97.99</li><li>Men's Pro Standard Royal Golden State Warriors Script Tail Satin Full-Snap Jacket:$154.99</li><li>Men's JH Design Black Golden State Warriors 2022/23 City Edition Full-Zip Nylon Bomber Jacket:$112.49</li><li>Men's Antigua Black Golden State Warriors Big & Tall Generation Quarter-Zip Pullover Jacket:$69.74</li><li>Men's Mitchell & Ness Navy Golden State Warriors Hardwood Classics Satin Full-Snap Raglan Jacket:$89.99</li><li>Men's Antigua Black Golden State Warriors Reprocess Quarter-Zip Top:$64.49</li><li>Men's Antigua Black Golden State Warriors Altitude Full-Zip Jacket:$86.24</li><li>Men's Antigua Gray Golden State Warriors Twine Quarter-Zip Top:$71.24</li><li>Men's Antigua Gray Golden State Warriors Reprocess Quarter-Zip Top:$64.49</li><li>Men's Mitchell & Ness Royal Golden State Warriors Hardwood Classic Primetime Full-Snap Satin Jacket:$112.49</li><li>Men's Antigua Charcoal Golden State Warriors Victory Crewneck Pullover Sweatshirt:$77.99</li><li>Men's Antigua Gray Golden State Warriors Insider Quarter-Zip Top:$84.74</li><li>Men's Antigua Oatmeal Golden State Warriors Fortune Full-Zip Vest:$80.99</li><li>Men's Antigua Black Golden State Warriors Pure Honeycomb Pullover Hoodie:$82.49</li><li>Men's Mitchell & Ness Royal Golden State Warriors Team Origins Anorak Quarter-Zip Pullover Hoodie:$86.24</li><li>Women's Antigua Pewter Golden State Warriors Tunnel Polo:$57.74</li><li>Men's Levelwear White Golden State Warriors Dimension Insignia Pullover Hoodie:$77.24</li><li>Women's Antigua Heather Royal Golden State Warriors Layout Sleeveless V-Neck Polo:$50.99</li><li>Men's Levelwear Royal Golden State Warriors Charter Insignia Core Quarter-Zip Pullover Top:$73.49</li><li>Men's Pro Standard Royal Golden State Warriors Sublimated Satin Full-Snap Jacket:$174.99</li><li>Men's Nike Royal Golden State Warriors 2023/24 Authentic Showtime Full-Zip Hoodie:$154.99</li><li>Men's Columbia Royal Golden State Warriors Camo Flash Forward Full-Zip Windbreaker Jacket:$74.99</li><li>Men's Mitchell & Ness Navy Golden State Warriors Big & Tall Hardwood Classics Raglan Satin Full-Snap Jacket:$89.99</li><li>Men's Starter Royal Golden State Warriors Scout Varsity Satin Full-Snap Jacket:$108.74</li><li>Men's Starter White/Royal Golden State Warriors Renegade Satin Full-Snap Varsity Jacket:$104.99</li><li>Men's JH Design Royal Golden State Warriors Poly-Twill Full-Zip Jacket:$142.49</li><li>Men's Antigua Black/Gold Golden State Warriors Content Quarter-Zip Top:$70.49</li><li>Men's Antigua Gray Golden State Warriors Regard Full-Zip Jacket:$84.74</li><li>Men's Antigua Heather Black Golden State Warriors Action Full-Zip Jacket:$58.49</li><li>Men's JH Design Royal Golden State Warriors Full-Zip Bomber Jacket:$112.49</li><li>Men's Antigua Royal Golden State Warriors Objection Double-Peached Full-Zip Jacket:$91.49</li><li>Men's Antigua Gray Golden State Warriors Regard Full-Zip Vest:$77.24</li><li>Men's Antigua Black Golden State Warriors Exposure Woven Long Sleeve Button-Up Shirt:$74.24</li><li>Men's Pro Standard Royal Golden State Warriors Retro Classic Pullover Hoodie:$144.99</li><li>Men's Antigua Heather Black Golden State Warriors Hold-Up Full-Zip Tri-Blend Jacket:$91.49</li><li>Men's Antigua Heather Royal Golden State Warriors Spikes Raglan Quarter-Zip Hoodie:$86.24</li><li>Men's Columbia Blue Golden State Warriors Oroville Creek Lined Full-Zip Jacket:$86.24</li><li>Men's G-III Sports by Carl Banks Tan Golden State Warriors Build Up Heavy Duck Canvas Full-Zip Hoodie:$127.49</li><li>Men's Starter Royal/Gold Golden State Warriors Charger Half-Zip Pullover Jacket:$119.99</li><li>Unisex Mitchell & Ness Royal Golden State Warriors Hardwood Classics Team OG 3.0 Anorak Half-Zip Windbreaker Jacket:$101.24</li><li>Men's Jeff Hamilton Black Golden State Warriors Leather Full-Snap Jacket:$1,312.49</li><li>Men's Antigua Olive Golden State Warriors Subtle Quarter-Zip Sweatshirt:$77.24</li><li>Men's Levelwear Royal Golden State Warriors Spector Insignia Core Quarter-Zip Pullover Top:$73.49</li><li>Men's Mitchell & Ness Royal Golden State Warriors Throw It Back Full-Zip Windbreaker Jacket:$82.49</li><li>Men's Antigua Gray Golden State Warriors Strong Hold Long Sleeve Henley Hoodie T-Shirt:$71.24</li><li>Men's Antigua Royal Golden State Warriors Intent Quarter-Zip Top:$70.49</li><li>Men's Antigua Royal Golden State Warriors Tribute Quarter-Zip Pullover Top:$59.99</li><li>Men's Antigua Gray Golden State Warriors Objection Double-Peached Full-Zip Jacket:$91.49</li><li>Men's Antigua Gray Golden State Warriors Perilous Quarter-Zip Sweatshirt:$80.99</li><li>Men's Antigua Black Golden State Warriors Regard Full-Zip Vest:$77.24</li><li>Men's Antigua White Golden State Warriors Metallic Logo Generation Quarter-Zip Top:$65.99</li><li>Men's Antigua Heather Royal Golden State Warriors Cloud Pullover Hoodie:$86.99</li><li>Men's Antigua Natural Golden State Warriors Fortune Quarter-Zip Pullover Jacket:$86.24</li><li>Men's Mitchell & Ness Royal Golden State Warriors Hardwood Classics Varsity Full-Snap Jacket:$206.24</li><li>Men's Antigua Heather Black Golden State Warriors Subtle Quarter-Zip Sweatshirt:$77.24</li><li>Women's Antigua Heather Black Golden State Warriors Matter Polo:$55.49</li><li>Men's Antigua Heather Gray Golden State Warriors Victory Full-Zip Jacket:$71.24</li><li>Men's Antigua Heather Charcoal Golden State Warriors Effortless Full-Zip Hoodie Jacket:$80.99</li><li>Women's Antigua Heather Royal Golden State Warriors Recap Sleeveless Polo:$53.99</li><li>Men's Antigua Heather Gray Golden State Warriors Metallic Logo Victory Raglan Pullover Hoodie:$63.74</li><li>Men's Antigua Heather Black Golden State Warriors Spikes Raglan Quarter-Zip Hoodie:$86.24</li><li>Men's Antigua Royal Golden State Warriors Links 2 Full-Zip Golf Jacket:$86.24</li><li>Men's Fanatics Royal/Gray Golden State Warriors Anorak Flagrant Foul Color-Block Raglan Hoodie Half-Zip Jacket:$59.99</li><li>Men's Antigua Gray Golden State Warriors Intent Quarter-Zip Top:$70.49</li><li>Men's Antigua Gray Golden State Warriors Swelter Full-Zip Puffer Jacket:$98.99</li><li>Unisex The Wild Collective Black Golden State Warriors Stitch Applique Full-Zip Bomber Jacket:$89.99</li><li>Men's G-III Sports by Carl Banks Royal Golden State Warriors Game Ball Full-Zip Track Jacket:$59.99</li><li>Men's Antigua Oatmeal Golden State Warriors Fortune Full-Zip Jacket:$86.24</li><li>Men's Starter Royal Golden State Warriors Home Game Satin Full-Snap Varsity Jacket:$112.49</li><li>Men's JH Design Royal Golden State Warriors 7-Time NBA Finals Champions Reversible Wool Full-Zip Jacket:$176.24</li><li>Men's Antigua Royal Golden State Warriors Flight Woven Tri-Blend Long Sleeve Button-Down Shirt:$65.99</li><li>Men's Antigua Heather Gray Golden State Warriors Metallic Logo Big & Tall Fortune Quarter-Zip Jacket:$84.74</li><li>Women's Antigua Heather Black Golden State Warriors Recap Sleeveless Polo:$53.99</li><li>Unisex Bleacher Report x Mitchell & Ness Black Golden State Warriors Backstage Crew Hoodie Full-Zip Jacket:$112.49</li><li>Men's Antigua Heather Black Golden State Warriors Cloud Pullover Hoodie:$86.99</li><li>Men's Antigua Tan Golden State Warriors NBA 75th Anniversary Fortune Quarter-Zip Pullover Jacket:$89.99</li><li>Men's Antigua Black Golden State Warriors Regard Full-Zip Jacket:$84.74</li><li>Men's Nike Black Golden State Warriors 2023/24 City Edition Authentic Showtime Performance Raglan Full-Zip Jacket:$123.74</li><li>Men's Antigua Gray Golden State Warriors Tonal Intrepid Pullover Hoodie:$72.74</li><li>Men's Nike Black Golden State Warriors 2024/25 Courtside Performance Half-Zip Top:$74.99</li><li>Men's Jordan Brand Navy Golden State Warriors Authentic Statement Edition Full-Zip Windbreaker:$129.99</li><li>Men's JH Design Royal Golden State Warriors Reversible Embroidered Wool Full-Snap Jacket:$135.00</li><li>Golden State Warriors JH Design Reversible Poly-Twill Hooded Jacket with Fleece Sleeves - Royal/Gray:$104.99</li><li>Men's Starter Black Golden State Warriors Scout Varsity Satin Full-Snap Jacket:$108.74</li><li>Men's Mitchell & Ness Royal Golden State Warriors Hardwood Classics Team OG 3.0 Lightweight Satin Full-Snap Jacket:$104.99</li><li>Women's Antigua White Golden State Warriors Reprocess Polo:$51.74</li><li>Men's Antigua Royal Golden State Warriors Demand Full-Zip Vest:$77.24</li><li>Men's Pro Standard Black Golden State Warriors Script Tail Full-Snap Satin Varsity Jacket:$129.99</li><li>Men's Antigua Black Golden State Warriors Demand Full-Zip Vest:$77.24</li><li>Men's Pro Standard Royal Golden State Warriors Classic Warm-Up Full-Snap Jacket:$124.99</li><li>Men's Antigua Royal Golden State Warriors Strong Hold Long Sleeve Henley Hoodie T-Shirt:$71.24</li><li>Men's Antigua Black Golden State Warriors Brisk Full-Zip Vest:$68.24</li><li>Men's Jeff Hamilton Black Golden State Warriors Vegan Leather Full-Snap Jacket:$299.99</li><li>Men's Antigua White Golden State Warriors Reprocess Quarter-Zip Top:$64.49</li><li>Men's Antigua Heather Gray Golden State Warriors Subtle Quarter-Zip Sweatshirt:$77.24</li><li>Men's Columbia Royal Golden State Warriors Team Shotgun Quarter-Zip Pullover Jacket:$78.74</li><li>Men's Antigua White Golden State Warriors Shamrock Tribute Quarter-Zip Pullover Top:$59.99</li><li>Men's Nike Royal Golden State Warriors Authentic Performance Half-Zip Jacket:$74.99</li><li>Men's Nike Black Golden State Warriors 2023/24 City Edition Courtside Starting Five Full-Zip Jacket & Pants Set:$112.49</li><li>Men's Mitchell & Ness Gold Golden State Warriors Team OG 2.0 Vintage Logo Satin Full-Zip Jacket:$112.49</li><li>Men's Antigua Black Golden State Warriors Big & Tall Victory Raglan Pullover Hoodie:$80.99</li><li>Men's Antigua Black Golden State Warriors Sway Full-Zip Hoodie Jacket:$95.24</li><li>Men's Antigua Black Golden State Warriors Big & Tall Victory Crew Neck Pullover Sweatshirt:$68.24</li><li>Men's Antigua Heather Gray Golden State Warriors Metallic Logo Victory Raglan Full-Zip Hoodie:$63.74</li><li>Men's Antigua Black Golden State Warriors Tribute Quarter-Zip Pullover Top:$59.99</li><li>Men's Antigua Heather Gray Golden State Warriors Effortless Full-Zip Hoodie Jacket:$80.99</li><li>Men's Antigua Royal Golden State Warriors Metallic Logo Victory Raglan Full-Zip Hoodie:$63.74</li><li>Men's Antigua Heather Gray Golden State Warriors Brisk Quarter-Zip Windbreaker:$77.24</li><li>Men's Antigua Black Golden State Warriors Metallic Logo Generation Quarter-Zip Top:$65.99</li><li>Men's Mitchell & Ness White Golden State Warriors Hardwood Classics Arched Retro Lined Full-Zip Windbreaker Jacket:$101.24</li><li>Men's Antigua Heather Gray Golden State Warriors Tidy Quarter-Zip Hoodie:$71.24</li><li>Men's Antigua Gray Golden State Warriors Demand Full-Zip Vest:$77.24</li><li>Women's Antigua Heather Gray Golden State Warriors Matter Polo:$55.49</li><li>Women's Antigua Heather Black Golden State Warriors Layout V-Neck Polo:$55.49</li><li>Men's Antigua Royal Golden State Warriors Victory Quarter-Zip Mock Sweatshirt:$71.24</li><li>Men's Antigua Black Golden State Warriors Insider Quarter-Zip Top:$84.74</li><li>Men's Antigua Heather Royal Golden State Warriors Determined Quarter-Zip Top:$80.99</li><li>Men's Antigua Olive Golden State Warriors Effortless Full-Zip Hoodie Jacket:$80.99</li><li>Men's Antigua Black/Gray Golden State Warriors Content Quarter-Zip Top:$70.49</li><li>Men's Antigua Gray Golden State Warriors Cause Quarter-Zip Top:$80.99</li><li>Men's Mitchell & Ness Royal Golden State Warriors Hardwood Classics Big Shot Premium Full-Zip Windbreaker Jacket:$101.24</li></ul>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:34 am</td>
+        <td>
+          Application closed successfully 
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Count total video feeds on News & Features page</p>
+            <p class="text-sm">
+              <span>9:59:05 am</span> / <span>00:00:08:642</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Count total video feeds on News & Features page</h5>
+<span class='badge badge-success'>10.27.2024 9:59:05 am</span>
+<span class='badge badge-danger'>10.27.2024 9:59:14 am</span>
+<span class='badge badge-default'>00:00:08:642</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:08 am</td>
+        <td>
+          core-product	<b><font color='green'>https://www.nba.com/warriors</font></b> opened successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:12 am</td>
+        <td>
+          Navigated to News and Features section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:14 am</td>
+        <td>
+          Total videos more than 2 days old: <b>11</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:14 am</td>
+        <td>
+          Application closed successfully 
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sunday,October 27, 09:59 am (IST)</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sunday,October 27, 09:59 am (IST)</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>10</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Store Jacket details with price and Top Seller message":28.636,"Count total video feeds on News & Features page":8.642
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>core-product</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Mac OS X</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Mac OS X</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>ravi.manne</td>
+</tr>
+<tr>
+<td>Base Url</td>
+<td>https://www.nba.com/warriors</td>
+</tr>
+<tr>
+<td>Base Url</td>
+<td>https://www.nba.com/warriors</td>
+</tr>
+<tr>
+<td>Platform</td>
+<td>chrome</td>
+</tr>
+<tr>
+<td>Platform</td>
+<td>chrome</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 10
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

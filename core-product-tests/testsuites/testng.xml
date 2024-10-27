@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="derived product" parallel="classes">
+    <parameter name="cucumber.filter.tags" value="@smoke" />
+    <test name="RegressionTests">
+        <classes>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>

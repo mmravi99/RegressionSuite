@@ -1,0 +1,18 @@
+{
+  "core-product": [
+    {
+      "tcid": "TC001",
+      "description": "Store Jacket details with price and Top Seller message",
+      "testData": {
+        "mensPageTitle": "Golden State Warriors Mens Jackets, Mens Pullover Jacket, Warriors Full Zip Jacket | shop.warriors.com"
+      }
+    },
+    {
+      "tcid": "TC002",
+      "description": "Count total video feeds on News & Features page",
+      "testData": {
+        "noOfDays": 2
+      }
+    }
+  ]
+}
