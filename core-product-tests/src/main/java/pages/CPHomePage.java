@@ -51,6 +51,7 @@ public class CPHomePage extends BasePage {
     public void navigateToMensSection() throws InterruptedException {
         wait.until(ExpectedConditions.visibilityOf(menuShop));
         actions.moveToElement(menuShop).perform();
+        Thread.sleep(2000);
         wait.until(ExpectedConditions.visibilityOf(menuMen)).click();
     }
 
