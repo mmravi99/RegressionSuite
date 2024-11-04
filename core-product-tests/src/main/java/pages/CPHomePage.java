@@ -22,12 +22,12 @@ public class CPHomePage extends BasePage {
 
     @FindBy(xpath="//div[@class='p-2 absolute right-3 hover:cursor-pointer']")
     private WebElement popupWindow; // Pop up Windo
-    @FindBy(xpath = "//a[@class='accent-primary-border _link_o3w9z_1']//span[contains(text(),'Shop')]")
+    @FindBy(xpath = "//a[@class='accent-primary-border _link_ob2qz_1 text-2sm']//span[contains(text(),'Shop')]")
     private WebElement menuShop; //Shop Menu
     @FindBy(xpath = "//li[@role='menuitem']//li[@role='menuitem']//a[@title=\"Men's\"]")
     private WebElement menuMen;
     // Elements related to news & features
-    @FindBy(xpath = "//a[contains(@class,'_link_o3w9z_1')]//span[contains(text(),'...')]")
+    @FindBy(xpath = "//a[contains(@class,'_link_ob2qz_1 text-2sm')]//span[contains(text(),'...')]")
     private WebElement moreLink;
     @FindBy(xpath = "//div[@class='dark-primary-background _MainNavAdWrapper_f419v_15']")
     private WebElement slideSection;

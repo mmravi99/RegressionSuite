@@ -11,7 +11,7 @@
       "tcid": "TC002",
       "description": "Count total video feeds on News & Features page",
       "testData": {
-        "noOfDays": 2
+        "noOfDays": 3
       }
     }
   ]
